@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -6,6 +6,39 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.container {
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  border-bottom: 1ps solid #fff;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +68,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
