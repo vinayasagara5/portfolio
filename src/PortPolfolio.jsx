@@ -124,7 +124,7 @@ const PortPolfolio = () => {
                         </ul>
                     </header>
                     <main className={'mainContent'} ref={mainContentRef}>
-                        <section id="about" className={'aboutSection'}>
+                        <section id="about" className={'section'}>
                             <div className='heading-xs'>ABOUT</div>
                             <div>
                                 <p className={'aboutContent'}>
@@ -137,7 +137,7 @@ const PortPolfolio = () => {
                                 </p>
                             </div>
                         </section>
-                        <section id="experience" className={'aboutSection'}>
+                        <section id="experience" className={'experienceSection section'}>
                         <div className='heading-xs'>Experience</div>
                             <div>
                                 <ol>
@@ -345,7 +345,9 @@ const PortPolfolio = () => {
                             </a>
                         </Row> */}
 
-                        <section id="projects" className={'aboutSection'}>
+
+
+                        <section id="projects" className={'section'}>
                         <div className='heading-xs'>projects</div>
                             <p className={'aboutContent'}>
                                 Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a huge corporation, and a digital product studio.

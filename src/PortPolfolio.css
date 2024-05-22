@@ -64,6 +64,7 @@
     max-width: 20rem;
     margin-top: 1rem;
 }
+
 /* .headerContent {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -75,11 +76,12 @@
         max-width: 100%;
 
     }
-    
+
     .content {
         display: flex;
         justify-content: space-between;
     }
+
     .navbar {
         display: block;
         margin-top: 4rem;
@@ -89,6 +91,7 @@
         padding-left: 6rem;
         padding-right: 6rem;
     }
+
     .headerContent {
         padding-top: 6rem;
         padding-bottom: 6rem;
@@ -99,9 +102,11 @@
         max-height: 100vh;
         position: sticky
     }
-    .heading-xs{
+
+    .heading-xs {
         display: none;
     }
+
     .mainContent {
         padding-top: 6rem;
         padding-bottom: 6rem;
@@ -118,10 +123,12 @@
         max-width: 100%;
 
     }
+
     .navbar {
         display: none;
         /* margin-top: 4rem; */
     }
+
     .headerContent {
         /* padding-top: 6rem; */
         /* padding-bottom: 6rem; */
@@ -132,6 +139,7 @@
         max-height: 100vh;
         position: sticky
     }
+
     .mainContent {
         padding-top: 6rem;
         padding-bottom: 6rem;
@@ -139,18 +147,19 @@
         /* max-height: calc(100vh - 10px); */
         /* overflow-y: auto; */
     }
-    .heading-xs{
+
+    .heading-xs {
         display: block;
         /* padding-top: 1.25rem; */
         padding-bottom: 1.25rem;
         /* margin-bottom: 1rem; */
 
-    color: rgb(226 232 240);
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .875rem;
-    line-height: 1.25rem;
+        color: rgb(226 232 240);
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .875rem;
+        line-height: 1.25rem;
     }
 
 }
@@ -162,10 +171,12 @@
         max-width: 100%;
 
     }
+
     .navbar {
         display: none;
         /* margin-top: 4rem; */
     }
+
     .headerContent {
         /* padding-top: 6rem; */
         /* padding-bottom: 6rem; */
@@ -176,6 +187,7 @@
         max-height: 100vh;
         position: sticky
     }
+
     .mainContent {
         padding-top: 6rem;
         padding-bottom: 6rem;
@@ -183,7 +195,8 @@
         /* max-height: calc(100vh - 10px); */
         /* overflow-y: auto; */
     }
-    .heading-xs{
+
+    .heading-xs {
         display: block;
     }
 
@@ -267,10 +280,13 @@
     margin-right: 1rem
 }
 
-.aboutSection {
-
+.section {
     scroll-margin-top: 6rem;
     margin-bottom: 9rem;
+}
+
+.experienceSection:hover {
+    opacity: 0.8;
 }
 
 .experiencGroup {
@@ -292,14 +308,27 @@
 .experienceLi {
     margin-bottom: 3rem;
 }
-
-.exp-card {
-    --tw-shadow: inset 0 1px 0 0 rgba(148, 163, 184, .1);
-    --tw-shadow-colored: inset 0 1px 0 0 var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-        var(--tw-ring-shadow, 0 0 #0000),
-        var(--tw-shadow);
+.exp-card{
+    padding: 10px;
 }
+
+
+.exp-card:hover {
+    border-radius: 5px;
+    color: rgb(226 232 240);
+    /* padding: 10px; */
+    background-color: rgba(30, 41, 59, .5);
+    -webkit-box-shadow: inset 10px 22px 72px 1px rgba(30, 41, 59, 0.49);
+    -moz-box-shadow: inset 10px 22px 72px 1px rgba(30, 41, 59, 0.49);
+    box-shadow: inset 10px 22px 72px 1px rgba(30, 41, 59, 0.49);
+
+}
+.exp-card:hover .disignation span {
+    /* color: red; */
+    color: rgb(94 234 212);
+
+}
+
 
 .exp-header {
     text-transform: uppercase;
@@ -323,8 +352,8 @@
     font-size: .875rem;
     margin-top: .5rem;
     color: rgb(148 163 184);
-
 }
+
 
 .techLi {
     margin-top: .5rem;
